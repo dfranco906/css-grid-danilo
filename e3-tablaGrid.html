@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio 1</title>
+  <style>
+    body {
+      display: grid;
+      align-content: center;
+      justify-items: center;
+    }
+
+    main {
+      display: grid;
+      width: auto;
+      height: 170px;
+      grid-template-areas:
+        "p0 p0 p0"
+        "p1 p2 p3"
+        "p1 p4 p5";
+      grid-template-columns: 100px 150px 150px;
+      grid-template-rows: 54px;
+    }
+
+    section {
+      background-color: bisque;
+      border: solid 1px black;
+    }
+
+    main .c1 {
+      grid-area: p0;
+      justify-items: center;      
+    }
+    main .c2{
+      grid-area: p1;
+      justify-items: center;
+    }
+    main .c3{
+      grid-area: p2;
+      justify-items: center;
+    }
+    main .c4{
+      grid-area: p3;
+      justify-items: center;
+    }
+
+    main .c5{
+      grid-area: p4;
+      justify-items: center;
+    }
+    main .c6{
+      grid-area: p5;
+      justify-items: center;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <section class="c1">
+      <p>CELDA 1</p>
+    </section>
+    <section class="c2">
+      <p>CELDA 2</p>
+    </section>
+    <section class="c3">
+      <p>CELDA 3</p>
+    </section>
+    <section class="c4">
+      <p>CELDA 4</p>
+    </section>
+    <section class="c5">
+      <p>CELDA 5</p>
+    </section>
+    <section class="c6">
+      <p>CELDA 6</p>
+    </section>
+
+  </main>
+
+</body>
+
+</html>

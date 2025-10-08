@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio 1</title>
+  <style>
+    body{
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    }
+    main {
+      display: grid;
+      width: 450px;
+      height: 170px;
+      grid-template-areas:
+        "p0 p0 p0"
+        "p1 p1 p1"
+        "p1 p1 p1";
+    }
+
+    section {
+      background-color: bisque;
+      border: solid 1px black;
+      padding: 10px;
+      align-content: center;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <section style="grid-area: p0">CELDA 1</section>
+    <section>CELDA 2</section>
+    <section>CELDA 3</section>
+    <section>CELDA 4</section>
+    <section>CELDA 5</section>
+    <section>CELDA 6</section>
+    <section>CELDA 7</section>
+  </main>
+
+</body>
+
+</html>
